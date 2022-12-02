@@ -105,9 +105,9 @@
     border: 1px solid white; 
 }
 .profile{
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
 }
 @media (max-width: 640px) {
     .voice-button{
@@ -155,6 +155,7 @@
     }
     .right-side{
         justify-content: right;
+        width: 38px;
     }
     body{
         padding-right: 0 ;
