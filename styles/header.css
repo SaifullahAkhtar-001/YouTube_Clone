@@ -110,8 +110,14 @@
     border-radius: 16px;
 }
 @media (max-width: 640px) {
+    .voice-button{
+        display: none;
+    }
+    .voice-logo{
+        display: none;
+    }
     .search{
-        width: 75px;
+        width: 50px;
     }
     .mid-side{
         margin-left: 5px;
@@ -131,7 +137,6 @@
         width: 50px;
         margin-left: 20px ;
         flex-shrink: 0;
-        margin-right: 5px;
     }
     .upload{
         display: none;
