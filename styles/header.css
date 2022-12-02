@@ -50,12 +50,11 @@
     height: 40px;
     width: 66px;
     background-color: rgb(240, 240, 240);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(198, 198, 198);
+    border: 1px solid rgb(198, 198, 198);
     margin-left: -2px;
     margin-right: 10px;
     border-radius: 2px 18px 18px 2px;
+    cursor: pointer;
 }
 .search-logo{
     height: 24px;
@@ -66,6 +65,7 @@
     width: 40px;
     border-radius: 20px;
     border: none;
+    cursor: pointer;
 }
 .voice-logo{
     height: 24px;
@@ -116,5 +116,43 @@
     .mid-side{
         margin-left: 5px;
         margin-right: 5px;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+    .youtube-logo{
+        height: 20px;
+        cursor: pointer;
+        margin-top: 2px;
+        margin-left: 10px;
+    }
+    .right-side{
+        display: flex;
+        width: 50px;
+        margin-left: 20px ;
+        flex-shrink: 0;
+        margin-right: 5px;
+    }
+    .upload{
+        display: none;
+    }
+    .yt-app{
+        display: none;
+    }
+    .notification{
+        display: none;
+    }
+    .notifications-count{
+        display: none;
+    }
+    .notifications-count-container{
+        display: none;
+    }
+    .right-side{
+        justify-content: right;
+    }
+    body{
+        padding-right: 0 ;
+        padding-left: 72px;
     }
 }

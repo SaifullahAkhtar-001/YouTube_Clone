@@ -54,7 +54,9 @@
     .video-grid{
         grid-template-columns: 1fr;
     }
-
+    .thumbnail{
+        border-radius: 0;
+    }
 }
 @media (max-width: 821px) and (min-width: 641px){
     .video-grid{
