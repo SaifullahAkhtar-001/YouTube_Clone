@@ -14,6 +14,7 @@
 .thumbnail{
     width: 100%;
     border-radius: 6px;
+    cursor: pointer;
 }
 .timer{
     position:absolute;
@@ -28,6 +29,7 @@
 .profile-picture{
     width: 36px;
     border-radius: 18px;
+    cursor: pointer;
 }
 .title{
     font-size: 14px;
@@ -52,7 +54,7 @@
     .video-grid{
         grid-template-columns: 1fr;
     }
-    
+
 }
 @media (max-width: 821px) and (min-width: 641px){
     .video-grid{
